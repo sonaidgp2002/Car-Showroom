@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:hover{
+            background-color: #B1D7B4;
+        }
+        .head{
+            text-align: center;
+            font-family: cursive;
+        }
+        .concept{
+            column-count: 3;
+            column-rule-style: dashed;
+            column-gap: 10px;
+            column-rule-color: black; 
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .concept1{
+            column-count: 3;
+            column-rule-style: dashed;
+            column-gap: 10px;
+            column-rule-color: #F7ECDE; 
+            /* display: flex; */
+            justify-content: space-evenly;
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color: #F7ECDE;">
+    <div>
+        <img src="images/download.jpg" alt="Picture Could Not be Loaded" style="float: left;" height="40" width="90" id="pname">
+        <!-- <h3 style="float: left;">
+            <span>Cuda Motors</span>&emsp;&emsp;&emsp;&emsp;
+        </h3> -->
+        <h3 style="float: right;">
+            <a href="index.html"><span class="align">Home</span></a>&emsp;&emsp;&emsp;
+            <a href="page1.html" target="_blank"><span class="align">About Us</span></a>&emsp;&emsp;&emsp;
+            <a href="page6.html"><span class="align">What We Do</span></a>&emsp;&emsp;&emsp;
+            <a href="page2.html" target="_blank"><span class="align" id="hover">Our Products</span></a>&emsp;&emsp;&emsp;
+            <a href="page7.html"><span class="align">Contact Us</span></a>&emsp;&emsp;
+        </h3>
+    </div>
+    <br><br><br><br><br><br><br>
+    <h1 class="head">Glimpses of our products</h1>
+    <br><br><br><br>
+    <div class="concept1">
+        <h3 class="head">Cars and SUVs</h3>
+        <h3 class="head">Trucks and Buses</h3>
+        <h3 class="head">Defences</h3>
+    </div>
+    <div class="concept">
+        <a href="page3.html" target="_blank">
+            <video autoplay="autoplay" loop="loop" height="410" width="410">
+                <source src="videos/suv.mp4">
+            </video>
+        </a>
+        <a href="page4.html" target="_blank">
+            <video autoplay="autoplay" loop="loop" height="410" width="410">
+                <source src="videos/truck.mp4">
+            </video>
+        </a>
+        <a href="page5.html" target="_blank">
+            <video autoplay="autoplay" loop="loop" height="410" width="410">
+                <source src="videos/defence.mp4">
+            </video>
+        </a>
+    </div>
+    <br><br><br><br>
+    <footer>
+        <img src="images/world_map.gif" alt="" height="170" width="350">
+        <!-- <img src="download.jpg" alt="Picture Could Not be Loaded" height="40" width="90" id="pname"> -->
+        <div class="concept" style="float: right;">
+            <pre>
+                Mumbai, India
+                +1(234) 567-8910
+                info@cuba.com
+            </pre>
+            <pre>
+                Privacy Policy
+                FAQs
+                Terms & Conditions
+            </pre>
+            <pre>
+                Press Release
+                Gallery
+                Media Contact
+            </pre>
+        </div>
+    </footer>
+</body>
+</html>

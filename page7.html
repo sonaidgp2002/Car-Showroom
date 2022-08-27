@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+        .concept{
+            column-count: 3;
+            column-rule-style: dashed;
+            column-gap: 10px;
+            column-rule-color: black; 
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .concept1{
+            column-count: 2;
+            column-rule-style: dashed;
+            column-gap: 30px;
+            column-rule-color: black; 
+            display: flex;
+            justify-content: space-evenly;
+        }
+        /* input, button, select, textarea{
+            width: 100%;  
+        } */
+        button {      
+            background-color: #9ED2C6;
+            border: #9ED2C6;
+        }   
+        #overall_page{
+            /* margin-left: 22em; 
+            margin-right: 22em;  */
+            border: 2px solid #F9F5EB;
+            background-color: #F9F5EB;
+            /* padding: em; */
+            padding-left: 5em;
+            padding-right: 5em;
+        }
+        #concept2{
+            margin-left: 12em;
+            margin-right: 12em;
+            /* margin-top: 10em; */
+        }
+  </style>
+</head>
+<body style="background-color: #F7ECDE;">
+  <div>
+    <img src="images/download.jpg" alt="Picture Could Not be Loaded" style="float: left;" height="40" width="90" id="pname">
+    <!-- <h3 style="float: left;">
+        <span>Cuda Motors</span>&emsp;&emsp;&emsp;&emsp;
+    </h3> -->
+    <h3 style="float: right;">
+        <a href="index.html"><span class="align">Home</span></a>&emsp;&emsp;&emsp;
+        <a href="page1.html" target="_blank"><span class="align">About Us</span></a>&emsp;&emsp;&emsp;
+        <a href="page6.html"><span class="align">What We Do</span></a>&emsp;&emsp;&emsp;
+        <a href="page2.html" target="_blank"><span class="align" id="hover">Our Products</span></a>&emsp;&emsp;&emsp;
+        <a href="page7.html"><span class="align">Contact Us</span></a>&emsp;&emsp;
+    </h3>
+</div>
+<br><br><br><br><br><br><br>
+<div class="concept1" id="concept2">
+    <img src="images/contact.jpg" alt="" height="350" width="800">
+    <div id="overall_page">
+      <h1 style="text-align: center;">Contact Us</h1>
+      <form action="backend.php" name="FORM">
+        <div>
+              <label for="name">Name<span style="color: red;">*</span>: </label><br>
+              <input type="text" name="name" placeholder="Name" required>
+        </div><br>
+        <div>
+              <label for="email">Email ID<span style="color: red;">*</span>: </label><br>
+              <input type="email" name="email" placeholder="abc@email.com" required>
+          </div><br>
+          <div>
+              <label for="address">Your Message<span style="color: red;">*</span>: </label><br>
+              <textarea name="address" id="permanentAddress" cols="30" rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <div>
+            <button type="submit">
+                Send
+            </button>
+          </div>
+      </form>
+    </div>
+</div>
+  <br><br><br><br><br><br><br>
+    <footer>
+        <img src="images/world_map.gif" alt="" height="170" width="350">
+        <!-- <img src="download.jpg" alt="Picture Could Not be Loaded" height="40" width="90" id="pname"> -->
+        <div class="concept" style="float: right;">
+            <pre>
+                Mumbai, India
+                +1(234) 567-8910
+                info@cuba.com
+            </pre>
+            <pre>
+                Privacy Policy
+                FAQs
+                Terms & Conditions
+            </pre>
+            <pre>
+                Press Release
+                Gallery
+                Media Contact
+            </pre>
+        </div>
+    </footer>
+</body>
+</html>
